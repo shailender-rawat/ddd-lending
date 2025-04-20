@@ -1,4 +1,4 @@
-# ddd-lending
+#Apply Domain Driven Design Principles and Patterns in Lending
 
 have been working in SME Lending for 7 years and 
 
