@@ -43,13 +43,8 @@ How event storming works
 
 <<Create the diagram >>
 
-Lending
-> Loan Initiation
-> Loan Eligibility (Data Collection, Fraud Check, System Checks, others)
-> Loan Decisioning
-> Loan Disbursement
-> Loan Servicing
-> 
+
+
 Using the above diagram create the Commands, Events, Entities, Ubiquitous Language for each Bounded Context 
 
 
@@ -61,7 +56,13 @@ Which Strategic Patterns are you familiar with? (Multiple choices)
  Core Domain and Subdomains
  Context Mapping
  Other... (Open text)
+
+ 
 How do I identify a Bounded Context? (Open text)
+Identify Independent Service Heuristics / rule of thumb for identifying candidate value stream and domain boundaries
+would it led the team to focus and succeed
+cognitive load
+would act independently 
 
 How do I know a Bounded Context is Core Domain? (Open text)
 
@@ -75,6 +76,14 @@ What's Context Mapping used for? (Open text)
 
 Which kind of Context Mappings do you know? (Open text)
 
+Final recommendation for 
+Lending
+> Loan Initiation
+> Loan Eligibility (Data Collection, Fraud Check, System Checks, others)
+> Loan Decisioning
+> Loan Disbursement
+> Loan Servicing
+> 
 TL;DR [Rewrite]
 The building block of domain-driven design is the ubiquitous language. The ubiquitous language connects people in the project, so everyone can understand each other. We have to keep using the language that comes from the domain and never invent our own.
 
@@ -98,6 +107,9 @@ https://martinfowler.com/bliki/DomainDrivenDesign.html
 
 Context Mapping - Chapter 4 - Learning Domain-Driven Design / https://www.oreilly.com/library/view/what-is-domain-driven/9781492057802/ch04.html
 Bounded Context - Martin Fowler
+
+Interested in Certification/ Training 
+https://www.isaqb.org/certifications/cpsa-certifications/cpsa-advanced-level/ddd-domain-driven-design/
 
 YouTube:
 DDD Bounded Contexts & Subdomains
